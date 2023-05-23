@@ -1,0 +1,48 @@
+<DOCTYPE html> 
+    <!--    nombre : Sayra Miritza Ibarra Torres
+            materia: Programacion web 1    
+            fecha:12 de Mayo del 2023
+            UNIDAD 3 PRACTICA 3 -->
+    
+<html large="es">
+        <head>
+            <title> PRACTICA 2 UNIDAD 3</title>
+                <meta charsent="utf-B">
+                <meta name="author"content="Sayra Miritza Ibarra Torres">
+                <meta name="revised" content="Lunes 12 de Mayo del 2023"> 
+                <meta name="description" contenet="">
+            <style>
+                
+                Tit{background-color: black;color:#3be9e9}
+            </style>
+            </head>
+            <hgroup>
+                <body>
+                    <h1 class="Tit"> Funciones y eventos</h1>
+                    <h2>contenido de etiqueta</h2>
+                    <button onclick="document.body.style.backgroundColor='lightgreen';
+                    "ondblclick="alert('Hola mundo!!!');">cambia el fondo</button>
+                    <h2>contenido del funcionamiento</h2>
+                    <button id="btncolor">cambia de fondo</button>
+                    <button id="btnsaludar">saluda a todos</button>
+                <script>
+                    //modo basico
+                    let button=document.getElementById("btncolor");
+                    function funColor_A()
+                {
+                    document.body.style.backgroundColor='lightblue';
+                }
+                function funColor_B()
+                {
+                    document.body.style.backgroundColor='pink';
+                }
+                button.addEventListener('click',funColor_A);
+                button.addEventListener('ondbclick',funColor_B);
+                //modo optimizado
+                documet.getElementById("btnsaludar")addEventListener('click',())=>{
+                    alert("hola alumnos de la UPSLP...\tengan un buen dia .\n :)");
+                };
+                 </script>
+                 </body>
+                 </hgroup>
+                 </html>

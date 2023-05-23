@@ -1,0 +1,42 @@
+<!--
+    Nombre: Sayra Miritza Ibarra Torres
+    Materia: Programacion Web
+    
+-->
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <hgroup>
+            <h2>Elemento</h2>
+            <a id="google" href="https://www.google.com">Ir a Google</a><br>
+            <a id="facebook" href="https://www.facebook.com">Ir a Facebook</a><br>
+            <a id="twitter" href="https://www.twitter.com">Ir a Twitter</a><br>
+            <a id="instagram" href="https://www.instagram.com">Ir a Instagram</a><br>
+            <a id="youtube" href="https://www.youtube.com">Ir a Youtube</a><br>
+        </hgroup>
+        <hgroup>
+            <h2>Etiqueta</h2>
+            <button onclick="document.body.style.backgroundColor ='green';">Cambia Fondo</button>
+        </hgroup>
+        <hgroup>
+            <h2>Script</h2>
+            <button id="background">Cambia a fondo</button>
+            <script>
+                var button = document.getElementById('background');
+                function cambiaColor()
+                {
+                    document.body.style.backgroundColor = 'orange';
+                }
+                button.addEventListener('click', cambiaColor);
+            </script>
+        </hgroup>
+        <hgroup>
+            <h2>Externo</h2>
+            <button id="changeBackground">Cambia a fondo</button>
+            <script src="Codigo/script.js"></script>
+        </hgroup>
+    </body>
+</html>
